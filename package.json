@@ -1,7 +1,6 @@
 {
-<<<<<<< HEAD
   "name": "customer-survey",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -22,7 +21,13 @@
     "react-scripts": "5.0.1",
     "swiper": "^11.1.14",
     "uuid": "^10.0.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "express-cookie": "^4.17.1",
+    "express-session": "^1.18.0",
+    "firebase-auth": "^0.1.2",
+    "nodemon": "^3.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -47,24 +52,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-=======
-  "name": "customersurvey_reactapp",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "ajax": "^0.0.4",
-    "body-parser": "^1.20.3",
-    "express": "^4.21.0",
-    "express-cookie": "^4.17.1",
-    "express-session": "^1.18.0",
-    "firebase-auth": "^0.1.2",
-    "nodemon": "^3.1.4"
->>>>>>> origin/master
   }
 }
